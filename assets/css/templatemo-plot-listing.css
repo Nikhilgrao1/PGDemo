@@ -1,11 +1,3 @@
-/*
-
-TemplateMo 564 Plot Listing
-
-https://templatemo.com/tm-564-plot-listing
-
-*/
-
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
@@ -754,6 +746,7 @@ Banner Style
   width: 100%;
   margin-top: 60px;
   text-align: center;
+  /* background-color: red; */
 }
 
 .main-banner ul.categories li {
@@ -765,7 +758,7 @@ Banner Style
 .main-banner ul.categories li a {
   color: #fff;
   text-align: center;
-  font-size: 15px;
+  font-size: 1em;
   margin-top: 15px;
 }
 
@@ -1991,6 +1984,15 @@ responsive
   .popular-categories .naccs .menu div.last-thumb {
     border-bottom-left-radius: 0px;
   }
+  .popular-categories .naccs .menu div{
+    color: #fff;
+    background-color: #8d99af;
+    font-size: 0;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    height: 70px;
+    line-height: 10px;
+  }
   .recent-listing .item .left-image,
   .listing-page .item .left-image {
     float: none;
@@ -2058,6 +2060,7 @@ responsive
 @media (max-width: 767px) {
   .main-banner ul.categories li a {
     color: transparent;
+    font-size: 0em;
   }
   .header-area .main-nav a.logo {
     background-image: url(../images/black-logo.png);
