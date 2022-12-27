@@ -1342,6 +1342,10 @@ Page Heading
   overflow: hidden;
 }
 
+.page-heading h3,p{
+  color: #fff;
+}
+
 .page-heading .top-text {
   text-align: left;
 }
